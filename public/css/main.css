@@ -1,0 +1,40 @@
+* {
+    /* Removendo os espaçamentos automáticos */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /* Especificando para o body cobrir a tela inteira (viewport height) */
+    color: white;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+/* É possível ter mais de um selector */
+body, input, button, textarea {
+    /* Caso não ache 'Nunito', usará sans-serif (fontes não serifadas) */
+    font: 400 1.8rem/1 'Nunito', sans-serif; /* [weight] [size]/[line] [font-family] */
+    /* 
+    Além de px, podemos usar em, que busca um tamanho relativo ao elemento pai,
+    ou mesmo rem, que busca um tamanho relativo ao elemento root. 
+    */
+}
+
+#logo {
+    animation-delay: 50ms;
+}
+.location {
+    animation-delay: 100ms;
+}
+main h1 {
+    animation-delay: 150ms;
+}
+.visit p {
+    animation-delay: 200ms;
+}
+.visit a {
+    animation-delay: 250ms;
+}

@@ -1,0 +1,68 @@
+
+/* Utilizando ID como selector */
+#page-landing {
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%); /* Degradê */
+
+    text-align: center;
+    min-height: 100vh; /* Altura mínima */
+
+    display: flex;
+} 
+
+#container {
+    /* 
+    propriedade margin é uma shorthand para as demais margins 
+    caso exista um argumento, serve para todas as 4 direções
+    caso exista dois argumentos, serve para vertical e horizontal
+    caso exista quatro argumentos, top | right | bottom | left 
+    isso também se aplica no shorthand padding
+    */
+    margin: auto; 
+    
+    width: min(90%, 112rem); /* Limitando o tamanho relativo ao elemento pai */
+    /* será 90% até equivaler a 112rem (1120px) */
+}
+
+/* Observe que .visit p está buscando o parágrafo p dentro do .visit */
+.location, h1, .visit p {
+    height: 16vh;
+}
+
+.visit a {
+    width: 8rem; 
+    height: 8rem;
+    background: #ffd666;
+
+    border: none; /* Remove bordas */
+    border-radius: 3rem; /* Arredonda elemento */
+
+    display: flex;
+    align-items: center; /* Tentará alinhar todos os elementos no centro */
+    justify-content: center; 
+
+    margin: auto;
+    transition: background 200ms; /* Delay para mudar propriedade backgroud */
+}
+/* Propriedades quando o mouse estiver encima */
+.visit a:hover {
+    background: #96feff;
+}
+
+/* desktop version */
+
+@media (min-width: 720px) {
+    header {
+        display: flex; /* Elementos ao lado um do outro */
+        align-items: center; /* Atributo disponivel apenas em display: flex */
+        justify-content: space-between; /* Atributo disponivel apenas em display: flex */
+    }
+
+    .location, h1, .visit p {
+        height: initial; /* Valor antes das regras css para corrigir erro de alinhamento */
+        text-align: initial;
+    }
+
+    .location {
+        text-align: right;
+    }
+}
