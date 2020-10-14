@@ -8,6 +8,7 @@
 body {
     height: 100vh; /* Especificando para o body cobrir a tela inteira (viewport height) */
     color: white;
+    background: #EBF2F5;
 }
 
 :root {
