@@ -3,7 +3,7 @@ const orphanages = require('./database/fakedata.js')
 module.exports = {
 
     index(req, res) {
-        const city = req.query.city;
+        const city = req.query.city; // Get url query / ?city=Itanhaém
         return res.render('index', { city })
     },
 

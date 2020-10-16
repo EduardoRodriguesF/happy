@@ -21,6 +21,7 @@ const icon = L.icon({
     popupAnchor: [170, 2]
 })
 
+// Parameters take infos directly out of the argument object and turn it into local variables
 function addMarker({id, name, lat, lng}) {
     // Create popup overlay
     const popup = L.popup({
