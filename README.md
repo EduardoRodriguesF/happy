@@ -18,4 +18,7 @@ Projeto desenvolvido durante a terceira edição da *NLW*, realizado pela Rocket
 - **Administrar projetos** através do <code>npm</code>
 - **Organizar** uma aplicação extensa de forma visualmente simples
 - Adotar a biblioteca <code>nodemon</code> para facilitar o desenvolvimento em Node
+- Utilizar a **API** do WhatsApp para redirecionar o usuário para uma conversa
+- Armazenar dados com o **SQLite** pelo **JavaScript**
 - Dinamicamente passar dados entre back-end e front-end
+- **Validação** básica pelo front-end
