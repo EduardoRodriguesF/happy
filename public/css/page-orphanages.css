@@ -104,3 +104,9 @@ a.create-orphanage:hover {
     font: 700 2rem/1 'Nunito', sans-serif;
     z-index: 5;
 }
+
+@media (max-width: 768px) {
+    aside {
+        display: none!important;
+    }
+}

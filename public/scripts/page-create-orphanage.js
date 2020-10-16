@@ -99,7 +99,7 @@ function toggleSelect(event) {
 }
 
 function validate(event) {
-    // Validar se lat e lng estão preenchidos]
+    // Validar se lat e lng estão preenchidos
     const lat = document.querySelector("input[name='lat']").value;
     const lng = document.querySelector("input[name='lng']").value;
     
@@ -107,4 +107,10 @@ function validate(event) {
         event.preventDefault()
         alert('Selecione um ponto no mapa')
     }
+}
+
+if (document.addEventListener) {
+    document.addEventListener('invalid', function(event){
+        event.target.className += ' invalid';
+    }, true);
 }

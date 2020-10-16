@@ -32,3 +32,10 @@ aside.sidebar footer button:hover {
 .with-sidebar {
     padding-left: 110px;
 }
+
+@media (max-width: 768px) {
+    aside.sidebar footer button {
+        width: 72px;
+        height: 72px;
+    }
+}
