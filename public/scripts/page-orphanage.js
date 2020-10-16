@@ -16,8 +16,11 @@ const options = {
     zoomControl: false
 }
 
+const lat = document.querySelector('span[data-lat]').dataset.lat;
+const lng = document.querySelector('span[data-lng]').dataset.lng;
+
 //Create Map
-const map = L.map('mapid', options).setView([-24.1812405,-46.8013057], 13.75);
+const map = L.map('mapid', options).setView([lat, lng], 15);
 
 // Create and add tileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
@@ -31,8 +34,9 @@ const icon = L.icon({
 })
 
 // Create and add marker
+
 L
-.marker([-24.1812405,-46.8013057], { icon }) // { icon } = { icon: icon }
+.marker([lat, lng], { icon }) // { icon } = { icon: icon }
 .addTo(map)
 
 /* image gallery */
