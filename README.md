@@ -30,13 +30,19 @@ Projeto desenvolvido durante a *Next Level Week #3*, realizado pela Rocketseat d
 
 ## 👁️ Preview
 
-<img src="https://github.com/EduardoRodriguesF/happy/blob/main/screenshots/page-landing.png">
-
-<img src="https://github.com/EduardoRodriguesF/happy/blob/main/screenshots/page-landing-mobile.jpg">
-
-<img src="https://github.com/EduardoRodriguesF/happy/blob/main/screenshots/page-orphanages-desktop.png">
-
-<img src="https://github.com/EduardoRodriguesF/happy/blob/main/screenshots/page-landing-mobile.jpg">
+<p align="center">
+  <kbd>
+    <img height="300" src="https://github.com/EduardoRodriguesF/happy/blob/main/screenshots/page-landing.png">
+  </kbd>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd>
+    <img height="300" src="https://github.com/EduardoRodriguesF/happy/blob/main/screenshots/page-landing-mobile.jpg">
+  </kbd>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd>
+    <img height="300" src="https://github.com/EduardoRodriguesF/happy/blob/main/screenshots/page-orphanages-desktop.png">
+  </kbd>
+</p>
 
 ## 🛠️ Tecnologias
 - HTML / hbs
