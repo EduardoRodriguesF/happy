@@ -1,4 +1,4 @@
-[Leia em português]("https://github.com/EduardoRodriguesF/happy/blob/main/README.brazilian-portuguese.md")
+[Leia em português](https://github.com/EduardoRodriguesF/happy/blob/main/README.brazilian-portuguese.md)
 
 <p align="center">
     <img src="https://github.com/EduardoRodriguesF/happy/blob/main/public/images/logo-icon.png?raw=true">
