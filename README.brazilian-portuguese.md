@@ -1,3 +1,5 @@
+[Read in english]("https://github.com/EduardoRodriguesF/happy/blob/main/README.en.md")
+
 <p align="center">
     <img src="https://github.com/EduardoRodriguesF/happy/blob/main/public/images/logo-icon.png?raw=true">
 </p>
@@ -5,13 +7,13 @@
 <p align="center">Leve felicidade para o mundo</p>
 
 <p align="center">
-    <a href="#sobre">Sobre</a> •
-    <a href="#aprendizados">Aprendizados</a> •
-    <a href="#preview">Preview</a> •
-    <a href="#tecnologias">Tecnologias</a> •
-    <a href="#minha-milha-extra">Minha milha extra</a> •
-    <a href="#como-executar">Como executar</a> •  
-    <a href="#licenc-a">Licença</a>
+    <a href="#-sobre">Sobre</a> •
+    <a href="#-aprendizados">Aprendizados</a> •
+    <a href="#-preview">Preview</a> •
+    <a href="#-tecnologias">Tecnologias</a> •
+    <a href="#-minha-milha-extra">Minha milha extra</a> •
+    <a href="#-como-executar">Como executar</a> •  
+    <a href="#-licenc-a">Licença</a>
 </p>
 
 ## 🤔 Sobre
