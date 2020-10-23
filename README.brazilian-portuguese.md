@@ -1,4 +1,4 @@
-[Read in english](https://github.com/EduardoRodriguesF/happy/blob/main/README.en.md)
+[Read in english](https://github.com/EduardoRodriguesF/happy/blob/main/README.md)
 
 <p align="center">
     <img src="https://github.com/EduardoRodriguesF/happy/blob/main/public/images/logo-icon.png?raw=true">
